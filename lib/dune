@@ -1,0 +1,8 @@
+(include_subdirs unqualified)
+
+(library
+ (name proofsystemzoo)
+ (public_name proofsystemzoo)
+ (libraries zarith sqlite3 yojson unix str)
+ (ocamlopt_flags (:standard -inline 200))
+ (flags (:standard -w +a-4-9-40-41-42-44-45-70)))
