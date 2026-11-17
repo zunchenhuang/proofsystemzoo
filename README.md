@@ -1,5 +1,7 @@
 # proofsystemzoo
 
+<p align="center"><img src="docs/logo.png" alt="proofsystemzoo: eleven animals, one per proof system" width="640"></p>
+
 A zoo of propositional proof systems over one local benchmark database,
 written in OCaml.
 
